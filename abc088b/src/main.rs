@@ -16,7 +16,7 @@ fn read_vec<T: std::str::FromStr>() -> Vec<T> {
 */
 fn main() {
     let number_of_cards: i32 = read();
-    let mut cards: Vec<i32>      = read_vec();
+    let mut cards: Vec<i32>  = read_vec();
 
     let mut alice_points: i32 = 0;
     let mut   bob_points: i32 = 0;
