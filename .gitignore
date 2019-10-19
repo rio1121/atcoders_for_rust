@@ -1,2 +1,4 @@
 /target
 **/*.rs.bk
+
+stdin_for_atcoder/
