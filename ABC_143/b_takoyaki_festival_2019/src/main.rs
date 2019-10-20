@@ -28,6 +28,7 @@ fn main() {
         takoyaki.remove(0);
         if takoyaki.len() <= 0 { break; }
 
+        // &をつけて参照
         for value_of_takoyaki in &takoyaki
         {
             recovery_value += value_of_takoyaki * parent_number;
