@@ -13,8 +13,8 @@ fn read_vec<T: std::str::FromStr>() -> Vec<T> {
         .map(|e| e.parse().ok().unwrap()).collect()
 }
 
-// 配列vの添字startから探索し、keyの値以上の要素を見つけたらその要素を返す。
-// 見つからなかった場合は、配列の最大添字の1つ上の値を返す
+// 配列vの添字startから探索し、keyの値以上の要素を見つけたらその添字をi32型で返す。
+// 見つからなかった場合は、配列の最大添字の1つ上の値をi32型で返す(ex v.len() = 5 -> result_index = 5)。
 // 所有権が移る操作なので、Vec<i32>には&をつける。呼び出し側も同様。
 fn lower_bound(v: &Vec<i32>, start: usize, key: i32) -> i32 {
     let mut result_index: i32 = v.len() as i32;
