@@ -20,7 +20,7 @@ fn print_vec(v: Vec<u32>)
     println!("");
 }
 
-// 挿入ソートを行う. ただし挿入操作はdistance以降の添字を持つ要素に対してのみ行う.
+// 距離付き挿入ソートを行う.
 fn insertion_sort(number: u32, distance: usize, array: &mut Vec<u32>) -> u32
 {
     let mut count: u32 = 0;
