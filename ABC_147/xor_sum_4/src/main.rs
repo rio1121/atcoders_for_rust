@@ -11,18 +11,28 @@ fn read_vec<T: std::str::FromStr>() -> Vec<T> {
         .map(|e| e.parse().ok().unwrap()).collect()
 }
 
+const MOD: u64 = 1e9 as u64 + 7;
+
 fn main() {
     let n: u32 = read();
     let a: Vec<u64> = read_vec();
     let mut sum: u64 = 0;
 
-    for i in 0..(n - 1) as usize
+    for i in 0..60 as usize
     {
-        for j in i..n as usize
+        // 最下位ビットが1であるAの数
+        let mut ones = 0;
+        // 最下位ビットが0であるAの数
+        let mut zeros = 0;
+        for j in 0..n as usize
         {
-            sum += a[i] ^ a[j];
+            if (a[j] >> i) & 1 == 1 { ones += 1; } else { zeros += 1; }
         }
+
+        let per = (1u64 << i) % MOD;
+        sum += ones * zeros % MOD * per % MOD;
+        sum %= MOD;
     }
 
-    println!("{}", sum % (10_u64.pow(9) + 7));
+    println!("{}", sum);
 }
