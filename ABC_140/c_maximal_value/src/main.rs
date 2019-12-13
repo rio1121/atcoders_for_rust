@@ -13,10 +13,15 @@ fn read_vec<T: std::str::FromStr>() -> Vec<T> {
 
 use std::cmp::*;
 
+// Vecの和を返す
+fn sum_vec(v: &Vec<i64>) -> i64 {
+    return v.iter().fold(0, |sum, x| sum + x);
+}
+
 fn main() {
     let n: usize = read();
-    let b: Vec<u32> = read_vec();
-    let mut a: Vec<u32> = vec![0; n];
+    let b: Vec<i64> = read_vec();
+    let mut a: Vec<i64> = vec![0; n];
 
     a[0] = b[0];
 
@@ -27,5 +32,5 @@ fn main() {
 
     a[n - 1] = b[n - 2];
 
-    println!("{}", a.iter().fold(0, |sum, x| sum + x));
+    println!("{}", sum_vec(&a));
 }
