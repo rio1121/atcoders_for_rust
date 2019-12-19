@@ -1,5 +1,5 @@
 [package]
-name = "anti-division"
+name = "c_anti-division"
 version = "0.1.0"
 authors = ["Ryunosuke Yamada <chihaya9373-adlt@yahoo.co.jp>"]
 edition = "2018"
