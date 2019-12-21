@@ -30,5 +30,5 @@ fn main() {
 
     let result: f64 = n / minvalue as f64 + 4.0;
 
-    println!("{}", celi(result));
+    println!("{}", result.ceil());
 }
