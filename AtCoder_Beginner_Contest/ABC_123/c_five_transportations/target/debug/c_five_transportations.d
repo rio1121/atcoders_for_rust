@@ -1,0 +1,1 @@
+/Users/mkudo/Rust/AtCoders/AtCoder_Beginner_Contest/ABC_123/c_five_transportations/target/debug/c_five_transportations: /Users/mkudo/Rust/AtCoders/AtCoder_Beginner_Contest/ABC_123/c_five_transportations/src/main.rs
