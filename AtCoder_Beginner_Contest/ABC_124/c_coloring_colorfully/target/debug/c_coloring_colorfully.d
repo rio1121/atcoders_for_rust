@@ -1,0 +1,1 @@
+/Users/mkudo/Rust/AtCoders/AtCoder_Beginner_Contest/ABC_124/c_coloring_colorfully/target/debug/c_coloring_colorfully: /Users/mkudo/Rust/AtCoders/AtCoder_Beginner_Contest/ABC_124/c_coloring_colorfully/src/main.rs
