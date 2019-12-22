@@ -1,3 +1,5 @@
+// 解答出来ていません...
+
 // 標準入力から一行を読み取り、指定の型に変換する
 fn read<T: std::str::FromStr>() -> T {
     let mut s = String::new();
