@@ -1,0 +1,1 @@
+/Users/mkudo/Rust/AtCoders/AtCoder_Beginner_Contest/ABC_148/f_playing_tag_on_tree/target/debug/f_playing_tag_on_tree: /Users/mkudo/Rust/AtCoders/AtCoder_Beginner_Contest/ABC_148/f_playing_tag_on_tree/src/main.rs

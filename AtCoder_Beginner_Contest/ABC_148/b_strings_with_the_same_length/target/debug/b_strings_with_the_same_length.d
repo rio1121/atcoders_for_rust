@@ -1,0 +1,1 @@
+/Users/mkudo/Rust/AtCoders/AtCoder_Beginner_Contest/ABC_148/b_strings_with_the_same_length/target/debug/b_strings_with_the_same_length: /Users/mkudo/Rust/AtCoders/AtCoder_Beginner_Contest/ABC_148/b_strings_with_the_same_length/src/main.rs
