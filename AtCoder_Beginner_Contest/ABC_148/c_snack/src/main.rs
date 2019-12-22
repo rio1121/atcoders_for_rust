@@ -35,5 +35,5 @@ fn main() {
 
     let ab_gcd = gcd(a, b);
 
-    println!("{}", a*b/ab_gcd);
+    println!("{}", a/ab_gcd*b);
 }
