@@ -1,0 +1,1 @@
+/Users/mkudo/Rust/AtCoders/AtCoder_Beginner_Contest/ABC_121/c_energy_drink_collector/target/debug/c_energy_drink_collector: /Users/mkudo/Rust/AtCoders/AtCoder_Beginner_Contest/ABC_121/c_energy_drink_collector/src/main.rs
