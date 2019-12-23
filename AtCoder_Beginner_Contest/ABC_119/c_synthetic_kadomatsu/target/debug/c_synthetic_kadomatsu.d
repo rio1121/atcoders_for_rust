@@ -1,0 +1,1 @@
+/Users/mkudo/Rust/AtCoders/AtCoder_Beginner_Contest/ABC_119/c_synthetic_kadomatsu/target/debug/c_synthetic_kadomatsu: /Users/mkudo/Rust/AtCoders/AtCoder_Beginner_Contest/ABC_119/c_synthetic_kadomatsu/src/main.rs
