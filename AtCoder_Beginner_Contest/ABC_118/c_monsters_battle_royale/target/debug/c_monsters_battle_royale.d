@@ -1,0 +1,1 @@
+/Users/mkudo/Rust/AtCoders/AtCoder_Beginner_Contest/ABC_118/c_monsters_battle_royale/target/debug/c_monsters_battle_royale: /Users/mkudo/Rust/AtCoders/AtCoder_Beginner_Contest/ABC_118/c_monsters_battle_royale/src/main.rs
