@@ -1,0 +1,1 @@
+/Users/mkudo/Rust/AtCoders/AtCoder_Grand_Contest/AGC_041/a_table_tennis_training/target/debug/a_table_tennis_training: /Users/mkudo/Rust/AtCoders/AtCoder_Grand_Contest/AGC_041/a_table_tennis_training/src/main.rs
