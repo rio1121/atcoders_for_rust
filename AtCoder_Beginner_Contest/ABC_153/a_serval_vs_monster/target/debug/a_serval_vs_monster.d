@@ -1,0 +1,1 @@
+/Users/mkudo/Rust/AtCoders/AtCoder_Beginner_Contest/ABC_153/a_serval_vs_monster/target/debug/a_serval_vs_monster: /Users/mkudo/Rust/AtCoders/AtCoder_Beginner_Contest/ABC_153/a_serval_vs_monster/src/main.rs

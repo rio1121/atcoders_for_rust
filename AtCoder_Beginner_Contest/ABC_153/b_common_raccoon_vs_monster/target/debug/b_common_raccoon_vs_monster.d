@@ -1,0 +1,1 @@
+/Users/mkudo/Rust/AtCoders/AtCoder_Beginner_Contest/ABC_153/b_common_raccoon_vs_monster/target/debug/b_common_raccoon_vs_monster: /Users/mkudo/Rust/AtCoders/AtCoder_Beginner_Contest/ABC_153/b_common_raccoon_vs_monster/src/main.rs
